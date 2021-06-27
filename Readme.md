@@ -1,12 +1,6 @@
 # Characters API Automation
 
-Acceptance level tests for the Characters API. We expect the server to be run on localhost, with http on port
-8080.
-
-## IntelliJ plugins required
-- Cucumber for Java
-- Gherkin
-- Lombok
+Acceptance level tests for the Characters API. We expect the server to be run on localhost, with http on port 8080.
 
 ## How to run
 
@@ -34,6 +28,11 @@ The report looks as followws in the logs:
 [INFO] SERENITY REPORTS
 [INFO]   - Full Report: file:///C:/Projects/MarvelApiAutomation/target/site/serenity/index.html
 ```
+
+## IntelliJ plugins required
+- Cucumber for Java
+- Gherkin
+- Lombok
 
 ### Through IntelliJ - to debug 
 1. Append the debug runner annotation '@debug` above the scenario you want to test.
